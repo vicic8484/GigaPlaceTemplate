@@ -18,7 +18,7 @@
     // Multiple copies of this script can be used at the same time.
     // The overlay should update live if you update the image on your server.
     // You can change the reference coordiantes on lines 84 & 85
-    const URL = "https://github.com/vicic8484/GigaPlaceTemplate/blob/main/GigasPlace2023.png?raw=true";
+    const URL = "https://raw.githubusercontent.com/vicic8484/GigaPlaceTemplate/main/GigasPlace2023.png";
 
     const getData = async () => {
         const blob = new Blob([new Uint8Array(await new Promise(resolve =>
