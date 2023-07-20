@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         r/place templater
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  try to take over the canvas! Made by r/httyd and modified by vicic8484 for r/Gigastructures_Place 2023
 // @author       vicic8484
 // @author       oralekin, exdeejay (xDJ_), 101arrowz, Antonio32A
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        GM_xmlhttpRequest
-// @connect      media.discordapp.net
+// @connect      github.com
 // ==/UserScript==
 
 (() => {
