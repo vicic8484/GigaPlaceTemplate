@@ -8,7 +8,7 @@
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        GM_xmlhttpRequest
-// @connect      github.com
+// @connect      raw.githubusercontent.com
 // ==/UserScript==
 
 (() => {
