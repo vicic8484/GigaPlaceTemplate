@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         r/place templater
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/vicic8484
 // @version      1.0
 // @description  try to take over the canvas! Made by r/httyd and modified by vicic8484 for r/Gigastructures_Place 2023
 // @author       vicic8484
@@ -9,6 +9,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        GM_xmlhttpRequest
 // @connect      raw.githubusercontent.com
+// @updateURL    https://github.com/vicic8484/GigaPlaceTemplate/raw/main/userscript.user.js
+// @downloadURL  https://github.com/vicic8484/GigaPlaceTemplate/raw/main/userscript.user.js
 // ==/UserScript==
 
 (() => {
