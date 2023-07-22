@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/place templater
 // @namespace    https://github.com/vicic8484
-// @version      1.0
+// @version      1.1
 // @description  try to take over the canvas! Made by r/httyd and modified by vicic8484 for r/Gigastructures_Place 2023
 // @author       vicic8484
 // @author       oralekin, exdeejay (xDJ_), 101arrowz, Antonio32A
@@ -18,7 +18,7 @@
     // Multiple copies of this script can be used at the same time.
     // The overlay should update live if you update the image on your server.
     // You can change the reference coordiantes on lines 84 & 85
-    const URL = "https://raw.githubusercontent.com/vicic8484/GigaPlaceTemplate/main/GigasPlace2023.png";
+    const URL = "https://vicic8484.ddns.net/GiGaTemplate.png";
 
     const getData = async () => {
         const blob = new Blob([new Uint8Array(await new Promise(resolve =>
@@ -81,8 +81,8 @@
         tempImage.src = dataURL;
         await new Promise(resolve => (tempImage.onload = resolve));
         tempImage.style = "position: absolute;"
-            + "left: 447px;"
-            + "top: 177px;"
+            + "left: 467px;"
+            + "top: 195px;"
             + "image-rendering: pixelated;"
             + `width: ${tempImage.width / 3}px;`
             + `height: ${tempImage.height / 3}px;`;
