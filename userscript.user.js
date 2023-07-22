@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/place templater
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  try to take over the canvas! Made by r/httyd and modified by vicic8484 for r/Gigastructures_Place 2023
 // @author       vicic8484
 // @author       oralekin, exdeejay (xDJ_), 101arrowz, Antonio32A
@@ -81,8 +81,8 @@
         tempImage.src = dataURL;
         await new Promise(resolve => (tempImage.onload = resolve));
         tempImage.style = "position: absolute;"
-            + "left: 466px;"
-            + "top: 905px;"
+            + "left: 447px;"
+            + "top: 177px;"
             + "image-rendering: pixelated;"
             + `width: ${tempImage.width / 3}px;`
             + `height: ${tempImage.height / 3}px;`;
