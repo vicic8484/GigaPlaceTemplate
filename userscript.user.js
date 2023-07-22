@@ -9,8 +9,6 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        GM_xmlhttpRequest
 // @connect      raw.githubusercontent.com
-// @updateURL    https://github.com/vicic8484/GigaPlaceTemplate/raw/main/userscript.user.js
-// @downloadURL  https://github.com/vicic8484/GigaPlaceTemplate/raw/main/userscript.user.js
 // ==/UserScript==
 
 (() => {
