@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/place templater
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      1.0
 // @description  try to take over the canvas! Made by r/httyd and modified by vicic8484 for r/Gigastructures_Place 2023
 // @author       vicic8484
 // @author       oralekin, exdeejay (xDJ_), 101arrowz, Antonio32A
